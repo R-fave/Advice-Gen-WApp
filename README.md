@@ -1,8 +1,6 @@
-# React + Vite
+# Advice Generator App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple react webapp, that makes a call to an advice api 
+then uses the data gotten form the api to make another call to fetch related images 
+then render both the advice and the image on the DOM.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
