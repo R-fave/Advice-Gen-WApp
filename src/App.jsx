@@ -40,7 +40,7 @@ export default function App() {
           lg:w-[40vh] w-40 h-40 lg:px-5 
           max-lg:w-[40vh] text-white 
           bg-gray-600/40 rounded-md p-2">
-          <p className=" text-center max-sm:my-10 lg:my-8">
+          <p className=" text-center max-sm:my-10 lg:my-8 font-palanquin font-bold">
             {advice}
           </p>
         </div>
